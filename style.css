@@ -1,0 +1,76 @@
+html {
+    height: 100%;
+}
+body {
+    padding: 5px;
+    font-family: sans-serif;
+    background: linear-gradient(rgb(1, 74, 78), rgb(96, 254, 251));
+}
+
+.login-box {
+    position: absolute;
+    top: 20%;
+    bottom: 20%;
+    left: 30%;
+    padding: 40px;
+    height: 500px;
+    border-radius: 10px;
+    color: rgb(68, 68, 68);
+    width: 40%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-family:'Times New Roman';
+    text-align: center;
+    color: rgba(255, 255, 255, 0.43);
+}
+
+input {
+    width: 60%;
+    background: transparent;
+    caret-color: #6a6a6adb;
+    font-size: 16px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.796);
+    padding:5px;
+    border: none;
+    outline:none;
+}
+
+label:hover {
+    color: rgb(196, 196, 196);
+}
+
+
+.user-box {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border-top: 1px solid #2c2d2d86;
+    border-radius: 10px;
+    border-bottom: 1px solid rgba(248, 247, 247, 0.736);
+    margin: 10px 0 10px 90px;
+    background: rgba(198, 197, 197, 0.305);
+}
+
+form {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+a:hover {
+    font-family: cambria;
+    border-radius: 5px;
+    background-color: rgba(1, 69, 69, 0.218);
+    box-shadow: 0 0 5px #fff;
+    padding: 5px;
+}
+
+.login-box {
+    background: linear-gradient(rgb(2, 86, 86), rgb(98, 242, 242));
+    border-radius: 10px;
+    box-shadow: 0 0 5px #515252;
+    box-sizing: border-box;
+}
